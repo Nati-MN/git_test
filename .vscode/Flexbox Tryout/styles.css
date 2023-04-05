@@ -13,32 +13,28 @@
     font-size: 30px;
     flex: 1;
   }
+
+  
   .flex-container {
-    border: 10px;
-    gap: 80px;
-    padding: 25px;
-    display: flex;
+    border: 5px solid blue;
+    display: flex; 
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
   }
   
-  .flex-container div {
-    background: peachpuff;
-    border: 4px solid rgb(4, 54, 0);
-    height: 40px;
-    flex: 1;
-    text-align: center;
+  .flex-container > div {
+    color: red;
+    flex: 1;         /*flex: 1  = it works like a hybrid. When You make the page smaller or bigger, 
+                    it makes the Items, content or The box get larger or smaller too with the page  */
+  }
+  .flex-container > .two {      
+                    /*the .flex-container (box) + .two (item) combined, 
+                    are more specific than for example (.flex-container) 
+                    alone or (.two) alone --- CSS SELECTORS!!!*/
+    flex: 2;                             
+                    /*the flex 2 makes an item or content from the box twice as big. 
+                    or flex 3 = 3x... and so on.*/
+    color: rgb(0, 6, 128);
   }
 
-  .flex-container-second {
-        border: 10px;
-        gap: 80px;
-        padding: 40px;
-        gap: 100px;
-        
-  }
-  .flex-container-second div {
-    background: peachpuff;
-    border: 4px solid rgb(78, 210, 69);
-    height: 20px;
-    flex: 1;
-    text-align: center;
-  }
