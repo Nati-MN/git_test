@@ -1,0 +1,45 @@
+  .container {
+    background: lightblue;
+    padding: 16px;
+    border: 4px;
+    gap: 8px;
+    display: flex;
+  }
+  
+  .container div {
+    background: peachpuff; 
+    border: 4px solid blue;
+    height: 48px;
+    text-align:center;
+    font-size: 30px;
+    flex: 1;
+  }
+  .flex-container {
+    border: 10px;
+    gap: 80px;
+    padding: 25px;
+    display: flex;
+  }
+  
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid rgb(4, 54, 0);
+    height: 40px;
+    flex: 1;
+    text-align: center;
+  }
+
+  .flex-container-second {
+        border: 10px;
+        gap: 80px;
+        padding: 40px;
+        gap: 100px;
+        
+  }
+  .flex-container-second div {
+    background: peachpuff;
+    border: 4px solid rgb(78, 210, 69);
+    height: 20px;
+    flex: 1;
+    text-align: center;
+  }
