@@ -49,6 +49,27 @@
     color: darkmagenta;
     
     }
+    .advertisement {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .advertisement img {
+      max-width: 50%;
+    }
+    
+    .advertisement h2 {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    
+    .advertisement p {
+      font-size: 16px;
+      margin-top: 10px;
+    }
 
 /*flex = flexible*/
 
